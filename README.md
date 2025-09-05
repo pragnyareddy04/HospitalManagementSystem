@@ -128,29 +128,6 @@
 
 ---
 
-## Installation and Setup
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/ravikumarxworkz/hospital-management-system.git
-   ```
-
-2. **Database Setup**:
-   - Import the SQL script to initialize the MySQL/PostgreSQL database.
-   - Configure the `dbconfig.properties` file with your database connection details.
-
-3. **Build and Deploy**:
-   - Use Maven to build the project.
-   - Deploy the application on a Tomcat server, accessible at `http://localhost:8080/hospital-management-system`.
-
-4. **Run Frontend**:
-   - Navigate to the React project folder and start the app:
-   ```bash
-   npm install
-   npm start
-   ```
-
----
 
 ## Future Enhancements
 
@@ -161,11 +138,3 @@
 
 ---
 
-## GitHub Project Link
-- [GitHub Repository for Hospital Management System](https://github.com/ravikumarxworkz/hospital-management-system)
-
-## Contributing
-We welcome contributions! Please see our `CONTRIBUTING.md` file for guidelines on how to contribute to this project.
-
-## License
-This project is licensed under the **MIT License**. Please refer to the `LICENSE` file for more information.
