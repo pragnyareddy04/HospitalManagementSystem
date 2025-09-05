@@ -324,7 +324,7 @@ function ViewDoctorTable() {
            <TextField
             label="Last Name"
             name="lastName"
-            value={currentPatient.lastName}
+            value={currentDoctor.lastName}
             onChange={handleInputChange}
             fullWidth
             margin="normal"
@@ -332,7 +332,7 @@ function ViewDoctorTable() {
           <TextField
             label="Email"
             name="email"
-            value={currentPatient.email}
+            value={currentDoctor.email}
             onChange={handleInputChange}
             fullWidth
             margin="normal"
@@ -341,7 +341,7 @@ function ViewDoctorTable() {
           <TextField
             label="Phone Number"
             name="phoneNumber"
-            value={currentPatient.phoneNumber}
+            value={currentDoctor.phoneNumber}
             onChange={handleInputChange}
             fullWidth
             margin="normal"
@@ -349,7 +349,7 @@ function ViewDoctorTable() {
           <TextField
             label="Gender"
             name="gender"
-            value={currentPatient.gender}
+            value={currentDoctor.gender}
             onChange={handleInputChange}
             fullWidth
             margin="normal"
@@ -357,7 +357,7 @@ function ViewDoctorTable() {
           <TextField
             label="Date of Birth"
             name="dateOfBirth"
-            value={currentPatient.dateOfBirth}
+            value={currentDoctor.dateOfBirth}
             onChange={handleInputChange}
             fullWidth
             margin="normal"
@@ -365,7 +365,7 @@ function ViewDoctorTable() {
           <TextField
             label="City"
             name="city"
-            value={currentPatient.city}
+            value={currentDoctor.city}
             onChange={handleInputChange}
             fullWidth
             margin="normal"
@@ -373,7 +373,7 @@ function ViewDoctorTable() {
           <TextField
             label="State"
             name="state"
-            value={currentPatient.state}
+            value={currentDoctor.state}
             onChange={handleInputChange}
             fullWidth
             margin="normal"
@@ -381,7 +381,7 @@ function ViewDoctorTable() {
           <TextField
             label="Country"
             name="country"
-            value={currentPatient.country}
+            value={currentDoctor.country}
             onChange={handleInputChange}
             fullWidth
             margin="normal"
@@ -391,7 +391,7 @@ function ViewDoctorTable() {
               label="Password"
               name="password"
               type="password"
-              value={currentPatient.password}
+              value={currentDoctor.password}
               onChange={handleInputChange}
               fullWidth
               margin="normal"
